@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+}
+
+.wholecont {
+    margin: 50px auto;
+    padding: 40px;
+    width: 80%;
+}
+
+.headcont {
+    display: flex;
+    gap: 50px;
+}
+
+.head1{
+    width: 50%;
+}
+
+.head1head {
+    color: hsl(300, 43%, 22%);
+    font-size: 50px;
+    font-weight: 700;
+    margin: 15px 40px 10px 40px;
+}
+.head1par {
+    color:  hsl(303, 10%, 53%);
+    padding: 5px 80px 20px 40px;
+    line-height: 1rem;
+}
+
+.cont2 {
+    width: 50%;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.rev, .rep, .tch{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: hsl(300, 24%, 96%);
+    border-radius: 5px;
+    width: 90%;
+    height: 40px;
+    margin: 15px; 
+    gap: 70px;
+}
+
+.rep {
+    margin-left: 50px;
+}
+
+.tch {
+    margin-left: 100px;
+}
+.attachfiles {
+    width:  12px;
+    height: 12px;
+    display: flex;
+    gap: 10px;
+    /* margin-left: -40px; */
+}
+
+.cont2 div p {
+    color: hsl(300, 43%, 22%);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+.responsecont {
+    display: flex;
+    gap: 20px;
+    margin: 40px;
+}
+
+.responsecont div {
+    background-color: hsl(300, 43%, 22%);
+    padding: 15px;
+    border-radius: 10px;
+    color: hsl(0, 0%, 100%);
+}
+
+.responsecont div p {
+    margin: 0px 15px 15px 15px;
+    font-weight: 400;
+    line-height: 1rem;
+    font-size: 13px;
+}
+.responsecont .profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.responsecont .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.responsecont .profile .profile-text h4 {
+    color: hsl(333, 80%, 67%);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.responsecont .profile .profile-text{
+    margin-left: -10px;
+}
+.smith{
+    margin-bottom: 15px;
+}
+.irene{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.anne{
+    margin-top: 40px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .wholecont {
+        width: 100%;
+    }
+
+    .headcont {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+    }
+    .head1{
+        width: 100%;
+        margin-bottom: -50px;
+    }
+    
+    .head1head {
+        width: 100%;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+        margin: 0;
+    }
+    .head1par{
+        width: 100%;
+        text-align: center;
+        padding:  0;
+        margin-top: 10px;
+    }
+
+    
+        
+    .cont2 {
+        width: 100%;
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+
+    .rev, .rep, .tch{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: hsl(300, 24%, 96%);
+        border-radius: 5px;
+        width: 100%;
+        height: 50px;
+        margin: 15px; 
+        gap: 10px;
+    }
+
+    .rev {
+        margin-left: -1px;
+    }
+
+    .rep {
+        margin-left: 0px;
+    }
+
+    .tch {
+        margin-left: 0px;
+    }
+    .stars {
+        width:  10px;
+        height: 10px;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    /* margin-left: -40px; */
+    }
+
+    .cont2 div p {
+        color: hsl(300, 43%, 22%);
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .responsecont {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0px;
+        gap: 5px;
+    }
+    .responsecont .smith {
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .responsecont .irene {
+        margin-bottom: 10px;
+        /* margin-bottom: 50px; */
+    }
+  
+}
