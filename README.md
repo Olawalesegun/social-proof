@@ -1,5 +1,4 @@
 # social-proof-section-master
+Generated Link to view: https://olawalesegun.github.io/social-proof/
 
-https://olawalesegun.github.io/social-proof/
-
-https://github.com/Olawalesegun/social-proof
+Github page link: https://github.com/Olawalesegun/social-proof
